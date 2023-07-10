@@ -1,0 +1,347 @@
+body{
+    margin: 0;
+    padding-top: 80px;
+}
+header{
+    height: 70px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+.container{
+    margin: auto;
+    max-width: 1920px;
+    padding: 0 16px;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+header .logo .bluedot{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: blue;
+    border-radius: 5px;
+}
+header .logo{
+    
+    display: inline-block;
+}
+ul{
+    margin :0;
+    padding: 0;
+}
+header nav{
+    display: inline-block;
+}
+header nav ul li{
+    
+    display: inline-block;
+}
+header nav ul li a {
+    color: #3E3E3E;
+    font-size: 15px;
+    margin-right: 24px;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    color: blue;
+}
+header nav ul li:last-of-type a{
+    margin-right: 0px;
+}
+.hero img{
+    width: 100%;
+    height: auto;
+}
+.hero{
+    position: relative;
+}
+.hero-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.hero-content.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    
+}
+.hero-content h1{
+    width: 440px;
+    max-width: 100%;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-size: 50px;
+    line-height: 56px;
+    letter-spacing: 1.25px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    font-weight: normal;
+}
+.hero-content p{
+    width: 505px;
+    max-width: 100%;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+.hero-content button{
+    width: 137px;
+    max-width: 100%;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 200px;
+    background: #3E50E5;
+    border-radius: 25px;
+    font-weight: normal;
+    cursor: pointer;
+}
+.hero-content button:hover{
+    color: blue;
+    background-color: #FFFFFF;
+}
+section hr{
+    width: 66px;
+    border: none;
+    border-top: 6px solid #67F11D;
+}
+.best-sellers{
+    padding-top: 90px;
+}
+.best-sellers h2{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.85px;
+    margin-bottom: 0 0 31px 0;
+
+}
+section.best-sellers{
+    margin: 0 8px;
+}
+section.best-sellers .product-slider{
+    margin: 72px;
+}
+section.best-sellers  .container{
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+}
+section.best-sellers .product-slider .product{
+    border: 1px solid #DDDDDD;
+    border-radius: 8px;  
+    width: 33%;
+    text-align: center;
+    padding: 57px;
+    margin: 0 8px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+section.best-sellers .product-slider .product:hover .product-info button{
+    border: 1px solid blue;
+    color: #FFFFFF;
+    background-color: blue;
+}
+section.best-sellers .product-slider .product img{
+    max-width: 100%;
+}
+section.best-sellers .product-slider .product .product-info{
+    margin-top: 50px;
+}
+section.best-sellers .product-slider .product .product-info .categories{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #3E50E5;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+section.best-sellers .product-slider .product .product-info .product-name{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 10;
+    margin-top: 0;
+}
+section.best-sellers .product-slider .product .product-info .price{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 30px;
+    margin-bottom: 29px;
+    margin-top: 0;
+}
+section.best-sellers .product-slider .product .product-info button{
+    height: 50px;
+    width: 220;
+    border-radius: 220px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+section.best-sellers .product-slider .product.new::before{
+    content: "New";
+    top: 12px;
+    right: 12px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    position: absolute;
+    background: #EC1C1C;
+    border-radius: 16px;
+    padding: 4px 15px;
+}
+section.best-sellers .product-slider .product .product-info .price .discounted-price{
+    color: #EC1C1C;
+}
+section.best-sellers .product-slider .product .product-info .price .original-price{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: line-through;
+    color: #9B9B9B;
+}
+section.newsletter{
+    margin: 80px auto;
+    padding: 72px 0;
+    max-width:955px;
+    text-align: center;
+    background: lightgray;
+}
+section.newsletter form button:hover{
+    color: #3E50E5;
+    background-color:white ;
+    border:1px solid lightgray;
+}
+section.newsletter h3{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 42px;
+}
+section.newsletter p{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+section.newsletter form{
+    display: flex;
+    justify-content: center;
+}
+section.newsletter form input{
+    height: 50px;
+    width: 326px;
+    max-width: 80%;
+    border-radius: 170px 0 0 170px;
+    box-sizing: border-box;
+    padding-left: 22px;
+    border: 1px solid lightgray;
+    border-right: none;
+    
+}
+section.newsletter button{
+    padding: 14px 10px;
+    width: 145px;
+    height: 49px;
+    background: #3E50E5;
+    border-radius: 0px 25px 25px 0px;
+    color: white;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    
+}
+footer .bottom-nav{
+    background: #3E3E3E;
+    padding: 60px 0;
+    color:white;
+}
+footer .copyright-text{
+    color: #E0E0E0;
+    background-color: #2B2B2B;
+    padding: 18px 0;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .bottom-nav .container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 955px;
+}
+footer .bottom-nav .list-title{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+footer .bottom-nav ul{
+    list-style: none;
+}
+footer .bottom-nav ul a{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: block;
+    margin-top:0;
+    margin-bottom: 20px;
+    color: #E0E0E0;
+    text-decoration: none;
+}
+footer .bottom-nav ul a:hover{
+    color: #3E50E5;
+}
+
+

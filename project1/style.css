@@ -1,0 +1,99 @@
+header{
+    background-color: #2E94CC;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 24px;
+    letter-spacing: 0.6px;
+    line-height: 30px;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    margin: 0 px;
+}
+article{
+    max-width: 850px;
+    margin: auto;
+    padding: 8px;
+    padding-top: 70px;
+}
+img{
+    max-width: 100%;
+}
+#fb,#wp{
+    max-width: 18.35px;
+    max-height: 25.61px;
+    vertical-align: middle;
+}
+.author{
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+color: #6C6C6C;
+}
+.share,.link-title{
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 22px;
+/* identical to box height, or 183% */
+color: #000000;
+}
+.share span{
+    margin-right: 10px;
+}
+.link-title{
+    margin: 15px;
+}
+#title{
+    margin-bottom: 50px;
+}
+h1 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 52px;
+    letter-spacing: 1.3px;
+    line-height: 58px
+}
+
+.title-image{
+    margin: 50px 0px;
+}
+.title-image img{
+max-width: 100%;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+#content{
+    max-width: 680px;
+    margin: auto;
+}
+article p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.iframe{
+    margin: 50px 0;
+    max-width: 100%;
+}
+footer{
+    color:greenyellow;
+    max-width : 680px;
+    margin: auto;
+    padding: 20px 15px;
+    margin-bottom: 15px;
+}
+footer li{
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+footer li :last-of-type{
+    margin-bottom: 0px;
+}
